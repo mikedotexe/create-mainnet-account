@@ -1,0 +1,14 @@
+{
+  "name": "create-mainnet-account",
+  "version": "1.0.0",
+  "description": "Simple tool to make an account on NEAR mainnet",
+  "main": "create-mainnet-account.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Purvis",
+  "license": "ISC",
+  "dependencies": {
+    "near-api-js": "^0.32.0"
+  }
+}
