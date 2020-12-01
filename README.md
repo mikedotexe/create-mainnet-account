@@ -15,9 +15,10 @@ Arguments:
 1. Existing mainnet account that will create the new account
 2. New mainnet account name that doesn't exist ([check if one exists](https://docs.near.org/docs/development/near-cli#near-state) with NEAR CLI)
 3. Public key (See [generate-key docs](https://docs.near.org/docs/development/near-cli#near-generate-key))
+4. Initial balance amount. (Example: `3` would be 3 Ⓝ)
 
 ```
-node create-mainnet-account.js creator.near newaccount.near P19ZkmB0H6hor3ZixxfCszgYn6beKqpkXa5553455g90
+node create-mainnet-account.js creator.near newaccount.near P19ZkmB0H6hor3ZixxfCszgYn6beKqpkXa5553455g90 3
 ```
     
 ### Troubleshooting

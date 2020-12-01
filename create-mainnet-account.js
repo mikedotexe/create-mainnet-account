@@ -31,7 +31,7 @@ AccountGoBrrr = {
         new_public_key: process.argv[4]
       },
       '300000000000000',
-      utils.format.parseNearAmount('3')
+      utils.format.parseNearAmount(process.argv[5])
     )
   }
 };
